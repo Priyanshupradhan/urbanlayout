@@ -1,0 +1,346 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Scope One', serif;
+}
+
+html,body{
+
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+*{
+
+    /* border: 1px solid red; */
+
+    box-sizing: border-box;
+  
+}
+
+
+
+.clearfix::after{
+
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header{
+
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center top;
+    background-image: url("banner.png");
+  
+}
+
+
+
+.header h3{
+
+    color: #fff;
+    font-weight: lighter;
+    float: left;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+.header a{
+
+    float: right;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-right: 50px;
+    color: #fff;
+    font-family: 'Scope One', serif;
+    font-weight: bold;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.header a span{
+
+    margin-right: 10px;
+  
+}
+
+.header h3 span{
+
+    color: skyblue;
+}
+
+.banner{
+
+    width: 100%;
+   height: 500px;
+    text-align: center;
+    clear: both;
+    position: relative;
+    top: 30%;
+    color: #fff;
+   
+    
+}
+
+.banner h1{
+
+    font-size: 48px;
+}
+
+.banner p{
+
+    font-size: 20px;
+}
+
+.banner button{
+
+    width: 150px;
+    height: 50px;
+    background-color: skyblue;
+    color: #fff;
+    border: none;
+    font-family:'scope one',sans-serif ;
+    margin-top: 30px;
+}
+
+/* mid section starts */
+
+.mid-section{
+
+ max-width: 1200px;
+ margin: 0 auto;
+ margin-top: 30px;
+ margin-bottom: 30px;
+
+}
+
+
+
+.mid-section .left{
+
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.mid-section .left img{
+
+    border-radius: 100%;
+    width: 100%;
+}
+
+.mid-section .right{
+
+    width: 65%;
+    float: right;
+}
+
+
+
+.blue-button{
+
+    width: 120px;
+    margin-top: 40px;
+    font-family: 'scope-one', sans-serif;
+    height: 40px;
+    background-color: skyblue;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+}
+
+/* mid section ends */
+
+
+/* second section starts */
+
+
+
+.wrapper{
+
+    width: 100%;
+    background-color: rgb(58, 200, 207);
+    padding: 30px 0;
+    margin-top: 50px;
+}
+.second-section{
+
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+   }
+   
+   .second-section .right{
+   
+       width: 30%;
+       float: right;
+       text-align: center;
+   }
+   
+   .right img{
+   
+       border-radius: 100%;
+       width: 100%;
+   }
+   
+   .second-section .left{
+   
+       width: 65%;
+       float: left;
+       color: #fff;
+   }
+   .left h2{
+
+    color: #fff;
+   }
+   
+   .bluebutton{
+   
+       width: 120px;
+       margin-top: 30px;
+       font-family: 'scope-one', sans-serif;
+       height: 40px;
+       background-color:#fffe;
+       color: skyblue;
+       border: none;
+       font-weight: bold;
+   }
+
+   .big-last-section{
+
+    width: 100%;
+    background-color: #fafafa;
+    padding: 50px 0;
+   }
+
+   .last-section{
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fafafa;
+   }
+
+   .last-section h1{
+
+    font-size: 30px;
+    margin-top: 80px;
+   }
+
+   .box{
+
+    width: 30%;
+    margin-top: 100px;
+    float: left;
+    
+   }
+
+   .both-margin{
+
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    text-align: center;
+   }
+   .both-margin p{
+
+    text-align: justify;
+   }
+
+   .box img{
+
+    border-radius: 100%;
+    border: 2px solid #e7e7e7;
+   }
+
+   .footer{
+
+    text-align: center;
+    
+    margin-top: 60px;
+   }
+
+   .footer i{
+
+    font-size: 20px;
+    color: gray;
+    border: 2px solid gray;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 10px;
+   }
+
+   @media only screen and (max-width:700px) {
+
+    .banner h1{
+
+        font-size: 38px;
+    }
+
+    .banner p{
+
+        font-size: 15px;
+    }
+
+    .banner button{
+
+        width: 100px;
+    }
+
+    .mid-section .left{
+
+        width: 100%;
+        clear: both;
+    }
+
+    .mid-section .right{
+
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+
+    .mid-section .left img{
+
+        width: 50%;
+    }
+
+
+    .second-section .right{
+
+        width: 100%;
+        clear: both;
+    }
+
+    .second-section .left{
+
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+
+    .second-section .right img{
+
+        width: 50%;
+    }
+    
+    .box{
+
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+
+  
+
+    .box img{
+
+        width: 50%;
+    }
+
+   
+   }
